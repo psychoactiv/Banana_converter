@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box {
+        border: 2px solid black;
+        border-radius: 3px;
+        margin: 3px 0px;
+        padding: 2px;
+        width: 590px;
+        height: 200px;
+      }
+    </style>
     <title>Banana speak</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Banana talks</h1>
+    <textarea
+      name="text"
+      id="area"
+      cols="80"
+      rows="10"
+      placeholder="Enter your sentence we will convert it to banana language"
+    ></textarea
+    ><br />
+    <button class="btn-1">Click here</button>
+    <br />
+    <h4>Output will be displayed Here 👇🏻</h4>
+    <div class="box"></div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
