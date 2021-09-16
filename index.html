@@ -4,33 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .box {
-        border: 2px solid black;
-        border-radius: 3px;
-        margin: 3px 0px;
-        padding: 2px;
-        width: 590px;
-        height: 200px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
     <title>Banana speak</title>
   </head>
   <body>
-    <h1>Banana talks</h1>
+    <nav>
+      <div>
+        <h1>Banana talks</h1>
+      </div>
+      <ul>
+        <li class="inline-element">
+          <a href="https://pritammajumdar.netlify.app/">My portfolio</a>
+        </li>
+        <li class="inline-element">
+          <a href="https://pritammajumdar.netlify.app/project.html"
+            >More projects on</a
+          >
+        </li>
+        <li class="inline-element">
+          <a href="/">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <h4>Put your text in this box👇🏻</h4>
     <textarea
       name="text"
       id="area"
       cols="80"
       rows="10"
-      placeholder="Enter your sentence we will convert it to banana language"
+      placeholder="Enter your sentence in english we will convert it to Minion language"
     ></textarea
     ><br />
-    <button class="btn-1">Click here</button>
+
+    <h4>Tap on the below image to covert after typing the sentence 👇🏻</h4>
+    <button class="btn-1">
+      <img src="img/458566.jpg" class="img-btn" alt="click here to translate" />
+    </button>
     <br />
-    <h4>Output will be displayed Here 👇🏻</h4>
+    <h4>Your text will be translated here👇🏻</h4>
     <div class="box"></div>
 
     <script src="script.js"></script>
+    <footer class="footer">
+      <div class="footer-header">Feel free to connect with me 🔗</div>
+      <div>
+        <ul class="non-bullet">
+          <li class="inline-element">
+            <a href="https://github.com/psychoactiv"
+              ><img src="/img/icons8-github (1).svg" alt="github"
+            /></a>
+          </li>
+          <li class="inline-element">
+            <a
+              href="https://twitter.com/speghettiScript?t=Um97FEQuUauZ871X5T8Zag&s=08"
+              ><img src="/img/icons8-twitter-50.png" alt="twitter"
+            /></a>
+          </li>
+          <li class="inline-element">
+            <a href="https://www.linkedin.com/in/pritam-majumdar-31a229183"
+              ><img src="/img/icons8-linkedin-64.png" alt="linkedin"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
