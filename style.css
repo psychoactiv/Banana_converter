@@ -25,8 +25,8 @@ body {
   border-radius: 3px;
   margin: auto;
   padding: 2px;
-  width: 590px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   margin-bottom: 200px;
 }
 
@@ -67,4 +67,19 @@ nav {
 
 .footer {
   background-color: var(--primary-color);
+}
+
+ul {
+  margin: auto;
+  padding: 0px;
+}
+
+div {
+  height: 100px;
+}
+
+#area {
+  font-family: "caveat";
+  font-size: 70%;
+  text-align: center;
 }
